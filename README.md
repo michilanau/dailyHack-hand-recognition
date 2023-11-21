@@ -4,7 +4,7 @@ refs: https://github.com/FerranAD/dailyhack2023/tree/main
 
 # Descripción
 Se ha realizado en python un modelo de reconocimiento de gestos de manos, los cuales son los siguientes:
-<h2 align = center> <img align="center" src="categories.png" height="350px" width="350px"/> 
+<img align="center" src="categories.png" height="350px" width="350px"/> 
   
 |                |                 |
 |----------------|-----------------|
@@ -14,8 +14,10 @@ Se ha realizado en python un modelo de reconocimiento de gestos de manos, los cu
 | puny de perfil | palma de perfil |
 | index          | polze           |
 
+
 Además se ha realizado una traducción de estos gestos a letras, de forma que podamos utilizarlos para escribir en lenguaje natural.
 Las traducciones serían las siguientes:
+
 
 | Signos          | Letra |
 |-----------------|-------|
@@ -51,4 +53,4 @@ Las traducciones serían las siguientes:
 Por último, se ha realizado una interfaz gráfica que permite introducir a través de la webcam los diferentes signos, y va mostrando el texto generado.
 Entre las funciones de la interfaz tendremos la posibilidad de Capturar una imagen, resetear el texto y Salir.
 
-<h2 align = center> <img align="center" src="interfaz.png" height="350px" width="350px"/> 
+<img align="center" src="interfaz.png" height="350px" width="350px"/> 
