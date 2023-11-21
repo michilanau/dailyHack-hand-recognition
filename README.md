@@ -58,3 +58,7 @@ Entre las funciones de la interfaz tendremos la posibilidad de Capturar una imag
 # Funcionamiento
 
 Para el funcionamiento bastaría con ir capturando las imágenes de los diferentes signos. 
+RECOMENDABLE utilizar un fondo oscuro, ya que el entrenamiento del modelo se ha hecho con imágenes en blanco y negro con una mano blanca sobre fondo negro.
+
+![](https://github.com/Your_Repository_Name/videoFuncionamiento.gif)
+
