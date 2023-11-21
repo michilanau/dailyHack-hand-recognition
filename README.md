@@ -54,3 +54,7 @@ Por último, se ha realizado una interfaz gráfica que permite introducir a trav
 Entre las funciones de la interfaz tendremos la posibilidad de Capturar una imagen, resetear el texto y Salir.
 
 <img align="center" src="interfaz.png" height="350px" width="350px"/> 
+
+# Funcionamiento
+
+Para el funcionamiento bastaría con ir capturando las imágenes de los diferentes signos. 
