@@ -61,5 +61,5 @@ Para el funcionamiento bastaría con ir capturando las imágenes de los diferent
 
 RECOMENDABLE utilizar un fondo oscuro, ya que el entrenamiento del modelo se ha hecho con imágenes en blanco y negro con una mano blanca sobre fondo negro.
 
-![](https://github.com/dailyHack-hand-recognition/videoFuncionamiento.gif)
+![aa](https://github.com/dailyHack-hand-recognition/blob/master/videoFuncionamiento.gif)
 
