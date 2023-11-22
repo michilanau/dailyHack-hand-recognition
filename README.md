@@ -22,36 +22,36 @@ Además se ha realizado una traducción de estos gestos a letras, de forma que p
 Las traducciones serían las siguientes:
 
 
-| Signos          | Letra |
-|-----------------|-------|
-| palm            |       |
-| l+l             | a     |
-| l+fist          | b     |
-| l+thumb         | c     |
-| l+ok            | d     |
-| l+c             | e     |
-| fist+fist       | f     |
-| fist+l          | g     |
-| fist+thumb      | h     |
-| fist+ok         | i     |
-| fist+c          | j     |
-| thumb+l         | k     |
-| thumb+fist      | l     |
-| thumb+thumb     | m     |
-| thumb+ok        | n     |
-| thumb+c         | ñ     |
-| ok+l            | o     |
-| ok+fist         | p     |
-| ok+thumb        | q     |
-| ok+ok           | r     |
-| ok+c            | s     |
-| c+l             | t     |
-| c+fist          | u     |
-| c+thumb         | v     |
-| c+ok            | w     |
-| c+c             | x     |
-| c+palm          | y     |
-| l+palm          | z     |
+| Gestos          | Símbolo |
+|-----------------|-------  |
+| palm            |         |
+| l+l             | a       |
+| l+fist          | b       |
+| l+thumb         | c       |
+| l+ok            | d       |
+| l+c             | e       |
+| fist+fist       | f       |
+| fist+l          | g       |
+| fist+thumb      | h       |
+| fist+ok         | i       |
+| fist+c          | j       |
+| thumb+l         | k       |
+| thumb+fist      | l       |
+| thumb+thumb     | m       |
+| thumb+ok        | n       |
+| thumb+c         | ñ       |
+| ok+l            | o       |
+| ok+fist         | p       |
+| ok+thumb        | q       |
+| ok+ok           | r       |
+| ok+c            | s       |
+| c+l             | t       |
+| c+fist          | u       |
+| c+thumb         | v       |
+| c+ok            | w       |
+| c+c             | x       |
+| c+palm          | y       |
+| l+palm          | z       |
 
 Por último, se ha realizado una interfaz gráfica que permite introducir a través de la webcam los diferentes signos, y va mostrando el texto generado.
 Entre las funciones de la interfaz tendremos la posibilidad de Capturar una imagen, resetear el texto y Salir.
@@ -86,7 +86,7 @@ A continuación, en el fichero ``modelCreator.py`` se ha realizado todo el códi
 
 Este lo emplearemos para la traducción imágen -> gesto. En el fichero ``classifier.py`` encontraremos la función encargada de esto. En ``translator.py`` haciendo uso de esta función anteriormente mencionada y del diccionario que se encargará de realizar los mapeos de gestos a letras y espacios, situado en ``translation.py``, somos capaces de transformar un array de imágenes a lenguaje natural.
 
-Por último llegamos a nuestra interfaz, a través de esta podremos capturar imágenes de nuestra mano y ver como se van transformando estos gestos en un texto. Todo esto lo podremos encontrar en ``cam.py``.
+Por último llegamos a nuestra interfaz, a través de esta podremos capturar gestos de nuestra mano y ver como se van transformando en un texto. Todo esto lo podremos encontrar en ``cam.py``.
 
 # 🚀 Arranque
 Para el arranque de la aplicación deberemos lanzar el siguiente comando:
