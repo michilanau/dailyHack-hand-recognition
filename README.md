@@ -6,6 +6,7 @@ refs: https://github.com/FerranAD/dailyhack2023/tree/main
 
 # 📜 Descripción
 Se ha realizado en python un modelo de reconocimiento de gestos de manos, los cuales son los siguientes:
+
 <img align="center" src="categories.png" height="350px" width="350px"/> 
   
 |                |                 |
