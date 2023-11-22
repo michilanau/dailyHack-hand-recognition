@@ -76,6 +76,18 @@ Pongo un gif en el que se puede ver un ejemplo de funcionamiento. La calidad no 
 
 ![GIF Funcionamiento](https://github.com/michilanau/dailyHack-hand-recognition/blob/14a42d43db2c2a7bd5ef5d11abf27184c998f6d0/gifFuncionamiento.gif)
 
+# 🛠️ Desarrollo
+
+El primer paso para la solución del reto ha sido crear y entrenar un modelo capaz de indentificar los diferentes gestos de las manos.
+
+Para ello, se ha optado por reorganizar la estructura de carpetas del dataset de fotos, clasificando los gestos en unicamente una carpeta por gesto. De esta manera, en mi opinión, queda sintácticamente más ordenado.
+
+A continuación, en el fichero ``modelCreator.py`` se ha realizado todo el código necesario para el entrenamiento y creación del modelo, dando como resultado el fichero ``best_model.pth``.
+
+Este lo emplearemos para la traducción imágen -> gesto. En el fichero ``classifier.py`` encontraremos la función encargada de esto. En ``translator.py`` haciendo uso de esta función anteriormente mencionada y del diccionario que se encargará de realizar los mapeos de gestos a letras y espacios, situado en ``translation.py``, somos capaces de transformar un array de imágenes a lenguaje natural.
+
+Por último llegamos a nuestra interfaz, a través de esta podremos capturar imágenes de nuestra mano y ver como se van transformando estos gestos en un texto. Todo esto lo podremos encontrar en ``cam.py``.
+
 # 🚀 Arranque
 Para el arranque de la aplicación deberemos lanzar el siguiente comando:
 ```
