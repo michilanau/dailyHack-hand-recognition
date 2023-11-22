@@ -16,7 +16,7 @@ classes = [
     'down'
 ]
 
-model = torch.load('best_model.pth')
+model = torch.load('./best_model.pth')
 
 image_transforms = transforms.Compose([
     transforms.Grayscale(num_output_channels=3),
