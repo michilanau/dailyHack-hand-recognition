@@ -2,7 +2,7 @@
 
 Soy Miguel Ángel Lanau 👋, esta es mi solución al dailyHack del Hackaton de Lleida 2023, HackEPS.
  
-refs: https://github.com/FerranAD/dailyhack2023/tree/main
+refs: [https://github.com/FerranAD/dailyhack2023/tree/main](https://github.com/FerranAD/dailyhack2023)
 
 # 📜 Descripción
 Se ha realizado en python un modelo de reconocimiento de gestos de manos, los cuales son los siguientes:
