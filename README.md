@@ -58,6 +58,14 @@ Entre las funciones de la interfaz tendremos la posibilidad de Capturar una imag
 
 <img align="center" src="interfaz.png" height="350px" width="350px"/> 
 
+# 💁‍♂️ Requisitos
+- Python 3.10 o inferior (Si se usa alguna versión superior es posible que no esté disponible alguna de las dependencias siguientes)
+- PyTorch
+- OpenCV
+- Matplotlib
+- Pillow
+- tkinter
+
 # 🗿 Funcionamiento
 
 Para el funcionamiento bastaría con ir capturando las imágenes de los diferentes signos. 
