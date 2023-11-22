@@ -70,5 +70,5 @@ Pongo un gif en el que se puede ver un ejemplo de funcionamiento. La calidad no 
 # 🚀 Arranque
 Para el arranque de la aplicación deberemos lanzar el siguiente comando:
 ```
-py cam.py
+py src/cam.py
 ```
