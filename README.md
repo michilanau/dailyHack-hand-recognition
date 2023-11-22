@@ -1,8 +1,8 @@
-Soy Miguel Ángel Lanau, esta es mi solución al dailyHack del Hackaton de Lleida 2023, HackEPS.
+Soy Miguel Ángel Lanau 👋, esta es mi solución al dailyHack del Hackaton de Lleida 2023, HackEPS.
  
 refs: https://github.com/FerranAD/dailyhack2023/tree/main
 
-# Descripción
+# 📜 Descripción
 Se ha realizado en python un modelo de reconocimiento de gestos de manos, los cuales son los siguientes:
 <img align="center" src="categories.png" height="350px" width="350px"/> 
   
@@ -55,13 +55,18 @@ Entre las funciones de la interfaz tendremos la posibilidad de Capturar una imag
 
 <img align="center" src="interfaz.png" height="350px" width="350px"/> 
 
-# Funcionamiento
+# 🗿 Funcionamiento
 
 Para el funcionamiento bastaría con ir capturando las imágenes de los diferentes signos. 
 
-RECOMENDABLE utilizar un fondo oscuro, ya que el entrenamiento del modelo se ha hecho con imágenes en blanco y negro con una mano blanca sobre fondo negro.
+**RECOMENDABLE** utilizar un fondo oscuro, ya que el entrenamiento del modelo se ha hecho con imágenes en blanco y negro con una mano blanca sobre fondo negro.
 
 Pongo un gif en el que se puede ver un ejemplo de funcionamiento. La calidad no es muy buena, osea que en el directorio raiz del repo subiré el video de la prueba.
 
 ![GIF Funcionamiento](https://github.com/michilanau/dailyHack-hand-recognition/blob/14a42d43db2c2a7bd5ef5d11abf27184c998f6d0/gifFuncionamiento.gif)
 
+# 🚀 Arranque
+Para el arranque de la aplicación deberemos lanzar el siguiente comando:
+```
+py cam.py
+```
